@@ -23,6 +23,7 @@ Prerequisites:
 * Data for each MODIS grid cell should contain within a separate directory (ex: h12v05) and all necessary quality bands and the band to be masked should contain within that directory.
 * Each band should have identical suffix for its file name.
   ex: 'QC' for a quality band and 'NPP' for the NPP band. File names will look like 20130101_QC.tif and 20130101_NPP.tif
+* Currently support only for GeoTIFF files with 'tif' extension.
 
 Then use the MODIS product's user guide to identify the quality criteria you need. For MOD17A3H, Quality Control (QC) band is chosen for defining masking criteria and two primary rules were identified.
 

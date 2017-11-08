@@ -75,7 +75,7 @@ class MaskBuilder(object):
             direction="Input")
 
         param4.filter.type = "ValueList"
-        param4.filter.list = ["AND", "OR", "Custom"]
+        param4.filter.list = ["AND", "OR", "XOR", "NOT", "Custom"]
         param4.value = "AND"
 
         param5 = arcpy.Parameter(

@@ -92,7 +92,7 @@ Running the masker:
 ```
 
 
-## Simple ArcMODIS-Maske GUI Tool for ArcGIS Desktop
+## Simple ArcMODIS-Masker GUI Tool for ArcGIS Desktop
 
 This is a simplified GUI tool for masking MODIS images. A single directory containing any number of MODIS images can be processed with this tool. All data and quality bands should be directly under that input directory. You can mix up images from multiple MODIS grid cells in this case, but then you would need to re-organize images into multiple grid cells after processing.
 

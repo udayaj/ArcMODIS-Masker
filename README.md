@@ -105,4 +105,5 @@ This is a simplified GUI tool for masking MODIS images. A single directory conta
 ## Important Information
 * [MODIS product table](https://lpdaac.usgs.gov/dataset_discovery/modis/modis_products_table) - See all the available MODIS products
 * [MODIS data download](https://e4ftl01.cr.usgs.gov/) - Download data from the Data pool (go to MOTA, MOLA and MOLT for Terra, Aqua and Combined products). You need a NASA Earth Data account for downloading data.
-* [MODIS grid and sinusoidal projection](modis_grid.zip)
+* [MODIS grid and sinusoidal projection](modis_grid.zip) - Download the MODIS grid (in sinusoidal projection) and sinusoidal projection. You can use this to identify grid cells (tiles) you need to download.
+* [MODIS data pre-processing tool](https://github.com/udayaj/ArcMODIS-Prepro) - Use ArcMODIS-Prepro to pre-process downloaded large MODIS datasets. Band subsetting, projection, value scale correction and GeoTIFF conversion functions are available under this tool.
